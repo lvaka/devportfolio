@@ -1,0 +1,204 @@
+/*
+Main Style Sheet
+Load Fonts First
+*/
+@import url("https://fonts.googleapis.com/css?family=Kalam");
+@import url("https://fonts.googleapis.com/css?family=Rokkitt");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+/* 
+Layout Formatting
+*/
+html, body, h1, h2, h3, h4, p, a, ul, li, span, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#main-flex {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justtify-content: center;
+  align-items: center;
+  z-index: -1; }
+
+#navbar-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  z-index: 1; }
+
+#navbar {
+  margin: 1rem auto; }
+  #navbar ul {
+    padding: 0.2rem 0; }
+    #navbar ul #nav-home {
+      border-left: 1px solid black; }
+    #navbar ul li {
+      float: left;
+      padding: 0 0.5rem;
+      border-right: 1px solid black; }
+
+#main-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px; }
+
+#hi-box {
+  display: flex;
+  justtify-content: center;
+  align-items: flex-start; }
+
+#introduction {
+  margin-left: 1rem; }
+
+#btn-box {
+  display: flex;
+  justtify-content: center;
+  margin: 1rem 0; }
+
+.btn {
+  border-radius: 8px;
+  background: #b3ecff;
+  margin: 1rem;
+  padding: 0.5rem 0.8rem; }
+
+.btn:hover {
+  background: #ad2b2b; }
+
+#social-bar {
+  margin-top: 1rem;
+  text-align: center; }
+
+#about-flex {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: -1; }
+
+#about-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto; }
+
+#profilepic {
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  #profilepic img {
+    box-shadow: 0 0 20px rgba(1, 1, 1, 0.2);
+    margin: 0 auto;
+    width: 60%;
+    height: auto; }
+
+#about-details {
+  width: 100%; }
+
+#developer-flex {
+  width: 100%;
+  padding: 2rem 0;
+  display: block;
+  z-index: -1; }
+
+.header {
+  width: 90%;
+  margin: 0 auto; }
+
+#developer-container {
+  display: grid;
+  width: 90%;
+  margin: 2rem auto;
+  grid-template-columns: 50% 50%; }
+
+.site-image {
+  margin: 1rem 0;
+  width: 100%;
+  padding: 1rem; }
+  .site-image img {
+    border: 5px solid #383838;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(1, 1, 1, 0.2); }
+
+.site-info {
+  margin: 1rem 0;
+  width: 100%;
+  padding: 4rem; }
+
+/*
+Typeset
+*/
+#navbar li {
+  text-align: center;
+  display: inline-block;
+  padding: 0 0.5rem; }
+
+#big-hi h1 {
+  color: #1c1c1c;
+  font-size: 5rem;
+  line-height: 5rem;
+  font-family: 'Kalam', cursive; }
+
+#introduction p {
+  color: #1c1c1c;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-size: "Rokkitt", serif; }
+
+.btn {
+  color: #383838;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+  transition: 0.3s; }
+
+.btn:hover {
+  color: #eae8e8; }
+
+#navbar a, #navbar a:visited {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #383838;
+  transition: 0.4s; }
+#navbar a:hover, #navbar a:active {
+  text-decoration: underline;
+  color: #ad2b2b; }
+
+#social-bar {
+  font-size: 1.8rem;
+  word-spacing: 0.4rem;
+  color: #493d77; }
+  #social-bar i:hover {
+    color: #ad2b2b;
+    transition: 0.3s; }
+
+#about-details h1 {
+  font-family: "Raleway", sans-serif;
+  margin: 0 0 2rem 2rem; }
+#about-details p {
+  margin: 1rem 0 1rem 2rem;
+  font-family: "Rokkitt", serif;
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
+#developer-flex h1 {
+  font-family: "Raleway", sans-serif;
+  color: #383838; }
+
+.site-info h3, .site-info p {
+  font-family: "Rokkitt", serif;
+  color: #383838; }
+.site-info p {
+  margin-top: 0.5rem;
+  line-height: 1.5rem;
+  color: #383838;
+  font-size: 1.1rem; }
+.site-info .tech {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,399 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"cont",
+				"content_box"
+			],
+			[
+				"deliver",
+				"delivery_date"
+			],
+			[
+				"main",
+				"main-color-dark"
+			],
+			[
+				"manager",
+				"manager_guide"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "developer/portfolio/views.py",
+			"settings":
+			{
+				"buffer_size": 198,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "developer/portfolio/urls.py",
+			"settings":
+			{
+				"buffer_size": 327,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "developer/portfolio/static/sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 2667,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "developer/portfolio/templates/portfolio/about.html",
+			"settings":
+			{
+				"buffer_size": 1351,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 363.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 994.0
+	},
+	"console":
+	{
+		"height": 272.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/lvaka/devsite/developer",
+		"/home/lvaka/devsite/developer/developer",
+		"/home/lvaka/devsite/developer/portfolio",
+		"/home/lvaka/devsite/developer/portfolio/migrations",
+		"/home/lvaka/devsite/developer/portfolio/static",
+		"/home/lvaka/devsite/developer/portfolio/static/sass",
+		"/home/lvaka/devsite/developer/portfolio/templates",
+		"/home/lvaka/devsite/developer/portfolio/templates/portfolio"
+	],
+	"file_history":
+	[
+		"/home/lvaka/devsite/developer/portfolio/templates/portfolio/base.html",
+		"/home/lvaka/devsite/developer/portfolio/templates/portfolio/welcome.html",
+		"/home/lvaka/Chego2.0/Chego/restaurant/templates/base.html",
+		"/home/lvaka/Chego2.0/Chego/restaurant/urls.py",
+		"/home/lvaka/Chego2.0/Chego/restaurant/views.py",
+		"/home/lvaka/devsite/developer/portfolio/templates/welcome.html",
+		"/home/lvaka/devsite/developer/developer/settings.py",
+		"/home/lvaka/devsite/developer/developer/urls.py",
+		"/home/lvaka/Chego2.0/Chego/Chego/urls.py",
+		"/home/lvaka/Chego2.0/Chego/restaurant/static/scripts/myscript.js",
+		"/home/lvaka/Chego2.0/passenger_wsgi.py",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/templates/manager_guide/menu_items.html",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/templates/manager_guide/order.html",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/templates/manager_guide/confirmorder.html",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/templates/manager_guide/editorder.html",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/templates/manager_guide/orderconfirmation.html",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/forms.py",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/models.py",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/templates/manager_guide/placeorder.html",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/admin.py",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/choices.py",
+		"/home/lvaka/Chego2.0/Chego/restaurant/static/css/style.scss",
+		"/home/lvaka/Chego2.0/Chego/restaurant/templates/restaurant.html",
+		"/home/lvaka/Chego2.0/Chego/restaurant/forms.py",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/static/manager_guide/sass/style.scss",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/templates/registration/login.html",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/templates/manager_guide/recipes.html",
+		"/home/lvaka/Chego2.0/Chego/manager_guide/templates/manager_guide/contacts.html",
+		"/home/lvaka/Chego2.0/Chego/Chego/settings.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "developer/portfolio/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "developer/portfolio/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "developer/portfolio/static/sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1585,
+								1585
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "developer/portfolio/templates/portfolio/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Dev.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 487.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

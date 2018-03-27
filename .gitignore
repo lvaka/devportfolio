@@ -1,0 +1,6 @@
+.env
+.sublime-project
+.pyc
+.sublime-workspace
+/ENV
+db.sqlite3

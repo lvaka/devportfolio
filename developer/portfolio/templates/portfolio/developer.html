@@ -1,0 +1,17 @@
+<div id="developer-flex">
+	<div class="header"><h1>Developer Portfolio</h1></div>
+	<div id="developer-container">
+		{% for site in sites %}
+			<div class="site-info">
+				<h3>{{ site.name }}</h3>	
+				<p>{{ site.description }}</p>
+				<div class="tech">{{ site.technology }}</div>
+			</div>
+			<div class="site-image">
+				<a href="{{site.url}}" target="_blank"><img src="{{ site.image.url }}" /></a>
+			</div>
+			
+		{% endfor %}
+		
+	</div>
+</div>

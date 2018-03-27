@@ -1,0 +1,35 @@
+{% extends "portfolio/base.html" %}
+
+{% block 'welcome' %}
+<div id="main-flex">
+	<div id="main-container">
+		<div id="hi-box">
+			<div id="big-hi">
+					<h1>Hi!</h1>
+			</div>
+			<div id="introduction">
+				<p>My name is Eric, and I'm a full stack 
+				web developer and freelance photographer.  Please feel free to look around.</p>
+			</div>
+		</div>
+		<div id="btn-box">
+			<div class="btn">
+				<h3>Web Examples</h3>
+			</div>
+			<div class="btn">
+				<h3>Photography Examples</h3>
+			</div>
+			<div class="btn">
+				<h3>Hire Me!</h3>
+			</div>
+		</div>
+		<span id="social-bar">
+			<a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+			<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+		</span>
+	</div>
+</div>
+{% include 'portfolio/about.html' %}
+{% include 'portfolio/developer.html' %}
+{% endblock %}
