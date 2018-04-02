@@ -8,6 +8,7 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.home, name='home'),
+    url(r'^image_JSON/$', views.portfolio_images, name='portfolio_images'),
 ]
 
 

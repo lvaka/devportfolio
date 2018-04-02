@@ -1,0 +1,66 @@
+<div id="photos-container">
+	<h1>Photographer Portfolio</h1>
+	<div id="photo-flex">
+		<img id="photo" src="" alt="badass image"/>
+	</div>
+</div>
+
+<script>
+	var photos;
+	var photoList = [];
+	var index = 0;
+
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+	    if (this.readyState == 4 && this.status == 200) {
+	       photos = JSON.parse(xhttp.responseText);
+
+	       for (x in photos){
+	       		photoList.push(photos[x]);
+			}
+
+			document.getElementById('photo').src = photoList[index];
+			
+			$(photo).unbind('click').bind('click', function(){
+				$(this).fadeOut(500);
+				setTimeout(function(){
+					if( index < photoList.length - 1 ){
+						index++;
+					} else {
+						index = 0;
+					}
+
+
+					document.getElementById('photo').src = photoList[index];
+					
+
+				},500);
+				$(this).fadeIn(500);
+
+				
+			});
+
+			setInterval(function(){
+				$(photo).fadeOut(500);
+				setTimeout(function(){
+					if( index < photoList.length - 1 ){
+						index++;
+					} else {
+						index = 0;
+					}
+
+
+					document.getElementById('photo').src = photoList[index];
+
+					$(photo).fadeIn(600);
+				},500)
+
+
+			}, 3500);
+	    }
+	};
+	xhttp.open("GET", "{% url 'portfolio_images' %}", true);
+	xhttp.send();
+
+	
+</script>

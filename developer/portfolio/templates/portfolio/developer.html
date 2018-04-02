@@ -3,7 +3,8 @@
 	<div id="developer-container">
 		{% for site in sites %}
 			<div class="site-info">
-				<h3>{{ site.name }}</h3>	
+				<h3>{{ site.name }}</h3>
+				<p><a href="{{ site.url }}" target="_blank">Go To Site</a></p>	
 				<p>{{ site.description }}</p>
 				<div class="tech">{{ site.technology }}</div>
 			</div>

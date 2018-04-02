@@ -13,14 +13,11 @@
 			</div>
 		</div>
 		<div id="btn-box">
-			<div class="btn">
-				<h3>Web Examples</h3>
+			<div class="btn" onclick="scrolly('#developer-flex')">
+				<h3 onclick=>Web Examples</h3>
 			</div>
-			<div class="btn">
+			<div class="btn" onclick="scrolly('#photos-container')">
 				<h3>Photography Examples</h3>
-			</div>
-			<div class="btn">
-				<h3>Hire Me!</h3>
 			</div>
 		</div>
 		<span id="social-bar">
@@ -32,4 +29,5 @@
 </div>
 {% include 'portfolio/about.html' %}
 {% include 'portfolio/developer.html' %}
+{% include 'portfolio/photos.html' %}
 {% endblock %}

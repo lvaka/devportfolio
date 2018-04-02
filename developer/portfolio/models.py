@@ -14,3 +14,11 @@ class Site(models.Model):
 
 	def __str__(self):
 		return self.name
+
+class PortfolioImage(models.Model):
+
+	name = models.CharField(max_length=50)
+	image = models.ImageField(upload_to='portfolio/')
+
+	def __str__(self):
+		return self.name
