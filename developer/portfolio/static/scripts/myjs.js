@@ -3,6 +3,7 @@ function scrolly(name){
 		$('html, body').animate({scrollTop: ($(name).offset().top)},800, "swing");
 }
 
+
 $(document).ready(function () {
 
 	//Grab and style site tech with <em> tags

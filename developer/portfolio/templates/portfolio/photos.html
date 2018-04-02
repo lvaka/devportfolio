@@ -19,6 +19,11 @@
 	       		photoList.push(photos[x]);
 			}
 
+			for (var i = 0; i < photoList.length; i++){
+				var img = new Image();
+				img.src = photoList[i];
+			}
+
 			document.getElementById('photo').src = photoList[index];
 			
 			$(photo).unbind('click').bind('click', function(){
