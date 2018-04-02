@@ -1,5 +1,4 @@
 function scrolly(name){
-		console.log('test');
 		$('html, body').animate({scrollTop: ($(name).offset().top)},800, "swing");
 }
 

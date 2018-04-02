@@ -15,8 +15,8 @@
 	</head>
 	<body>
 		<div id="hideme">
-			{% for image in images%}
-				<img src="image.url" />
+			{% for image in images %}
+				<img src="{{image.image.url}}" />
 			{% endfor %}
 		</div>
 		<div id="navbar-container">
