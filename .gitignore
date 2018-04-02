@@ -4,3 +4,4 @@
 .sublime-workspace
 /ENV
 db.sqlite3
+/migrations

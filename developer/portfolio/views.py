@@ -10,8 +10,11 @@ from django.http import JsonResponse
 def home(request):
 
 	sites = Site.objects.order_by('-pk')
+	images = PortfolioImage.objects.order_by('-pk')
 
-	return render (request, "portfolio/welcome.html", {'sites':sites})
+	return render (request, "portfolio/welcome.html", 
+					{'sites':sites, 
+					'images': images})
 
 def portfolio_images(request):
 
