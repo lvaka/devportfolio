@@ -1,4 +1,4 @@
-Django==1.11.11
+Django==1.11.15
 Pillow==5.0.0
 python-decouple==3.1
 pytz==2018.3
